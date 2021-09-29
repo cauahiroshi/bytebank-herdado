@@ -1,11 +1,8 @@
 
 public class Gerente extends Funcionario {
 
-	private String nome; 
-	private String cpf;
-	private double salario; 
-	private int senha; 
 	
+	private int senha; 
 	
 	public Gerente() {
 		
@@ -21,6 +18,10 @@ public class Gerente extends Funcionario {
 		} else {
 			return false; 
 		}
+	}
+	
+	public double getBonificacao() {
+		return super.getBonificacao() + super.getSalario(); 
 	}
 	
 }
