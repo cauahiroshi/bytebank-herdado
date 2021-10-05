@@ -1,18 +1,13 @@
-
-public class Funcionario {
+// nao pode dar new
+public abstract class Funcionario {
 
 	private String nome; 
 	private String cpf;
     private double salario; 
 	
-	
-	public Funcionario() {
+	// metodo sem corpo, nao há implementacao;
+	public abstract double getBonificacao();
 		
-	}
-	
-	public double getBonificacao() {
-		return this.salario * 0.05; 
-	}
 	
 	public String getNome() {
 		return nome;
