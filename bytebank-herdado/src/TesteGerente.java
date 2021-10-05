@@ -2,6 +2,8 @@
 public class TesteGerente {
 
 	public static void main(String[] args) {
+		
+		Autenticavel referencia = new Cliente();
 
 		Gerente gerenteUm = new Gerente(); 
 		gerenteUm.setNome("Marco");
