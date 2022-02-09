@@ -1,18 +1,19 @@
+package teste;
 
 public class TesteSistema {
 
 	public static void main(String[] args) {
 		
-		Gerente g = new Gerente();
+		modelo.Gerente g = new modelo.Gerente();
 		g.setSenha(2222);
 		
-		Administrador adm = new Administrador();
+		modelo.Administrador adm = new modelo.Administrador();
 		adm.setSenha(2222);
 		
-		Cliente cliente = new Cliente();
+		modelo.Cliente cliente = new modelo.Cliente();
 		cliente.setSenha(2222);
 		
-		SistemaInterno sI = new SistemaInterno();
+		modelo.SistemaInterno sI = new modelo.SistemaInterno();
 		sI.autentica(g);
 		sI.autentica(adm);
 		sI.autentica(cliente);

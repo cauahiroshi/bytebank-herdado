@@ -1,3 +1,4 @@
+package modelo;
 // nao pode dar new
 public abstract class Funcionario {
 

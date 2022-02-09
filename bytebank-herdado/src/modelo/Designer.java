@@ -1,4 +1,4 @@
-
+package modelo;
 public class Designer extends Funcionario {
 
 	

@@ -1,9 +1,16 @@
+package modelo; 
+public class Administrador extends Funcionario implements Autenticavel {
 
-public class Cliente implements Autenticavel {
+	private int senha;
+
+	@Override
+	public double getBonificacao() {
+		return 50;
+	}
 
 	private AutenticacaoUtil autenticador;
 
-	public Cliente() {
+	public Administrador() {
 		this.autenticador = new AutenticacaoUtil();
 	}
 
@@ -17,5 +24,4 @@ public class Cliente implements Autenticavel {
 		return this.autenticador.autentica(senha);
 
 	}
-
 }

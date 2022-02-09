@@ -1,14 +1,9 @@
-
-public class Gerente extends Funcionario implements Autenticavel {
-
-	public double getBonificacao() {
-		System.out.println("chamando o metodo de bonificacao do GERENTE");
-		return super.getSalario();
-	}
+package modelo;
+public class Cliente implements Autenticavel {
 
 	private AutenticacaoUtil autenticador;
 
-	public Gerente() {
+	public Cliente() {
 		this.autenticador = new AutenticacaoUtil();
 	}
 

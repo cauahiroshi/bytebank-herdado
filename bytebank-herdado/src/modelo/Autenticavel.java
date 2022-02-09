@@ -1,3 +1,4 @@
+package modelo;
 // contrato Autenicavel
 // quem assina esse contrato, precisa implementar 
 //metodo setSenha

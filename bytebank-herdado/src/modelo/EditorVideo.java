@@ -1,4 +1,4 @@
-
+package modelo;
 public class EditorVideo extends Funcionario {
 
 	public double getBonificacao() {

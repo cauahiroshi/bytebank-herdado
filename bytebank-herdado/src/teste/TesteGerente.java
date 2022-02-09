@@ -1,11 +1,12 @@
+package teste;
 
 public class TesteGerente {
 
 	public static void main(String[] args) {
 		
-		Autenticavel referencia = new Cliente();
+		modelo.Autenticavel referencia = new modelo.Cliente();
 
-		Gerente gerenteUm = new Gerente(); 
+		modelo.Gerente gerenteUm = new modelo.Gerente(); 
 		gerenteUm.setNome("Marco");
 		gerenteUm.setCpf("235568413");
 		gerenteUm.setSalario(5000.0);
